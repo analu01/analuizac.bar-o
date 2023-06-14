@@ -1,7 +1,7 @@
 .cabeçalho_menu-hunburguer{
     width: 24px;
     height: 24px;
-    background-image: url(../img/Menu.svg);
+    background-image: url(../img1/Menu.svg);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -26,17 +26,28 @@
 }
 
 
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+
+.container_botao:checked ~ .lista-menu{
+    display: block;
+}
+
 .lista-menu_título,
 .lista-menu_item{
     padding: 1em;
-    background-color: var(--branco);
+    background: var(--branco);
 }
 
-
-.lista-menu_link{
-   background: var(--laranja);
-   font-weight: 700;
+.lista-menu_título{
+    color: var(--laranja);
 }
+
 
 .lista-menu_link{
    background:var(--azul-degrade);
@@ -46,8 +57,6 @@
    text-transform: uppercase;
 }
 
-.container_botao{
-    display: none;
-}
+
 
 
