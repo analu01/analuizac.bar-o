@@ -29,8 +29,9 @@
   color: var(--azul);
 }
 
-.comtato_email{
+.contato_email{
   font-family: var(--fonte-principal);
   color: var(--azul);
-  background: url;
+  background: url(../img1/envelope.svg) no-repeat;
+  padding-left: 2em;
 }
